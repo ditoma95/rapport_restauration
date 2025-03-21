@@ -1,0 +1,166 @@
+\chapter{Expression des besoins}
+\clearpage
+\section{introduction}
+Ce projet vise à créer une marketplace dédiée à la restauration, où chaque utilisateur aura la possibilité de lancer et de gérer son propre restaurant en ligne. Grâce à une interface intuitive, il pourra personnaliser son espace, gérer son menu, suivre les commandes en temps réel et administrer son personnel selon ses besoins.  
+
+L’objectif est d’offrir une solution flexible et évolutive qui permettra aux restaurateurs, qu’ils soient indépendants ou en réseau, d’optimiser leur gestion et d’atteindre une clientèle plus large. Cette plateforme mettra également à disposition des outils de suivi des performances, des options de paiement sécurisées et des fonctionnalités facilitant l’interaction avec les clients.  
+
+En intégrant des fonctionnalités modernes et une expérience utilisateur fluide, cette marketplace ambitionne de révolutionner la manière dont les restaurants gèrent leurs activités en ligne.  
+
+
+\subsection{Spécifications techniques}
+
+\subsubsection{Langages et Technologies}
+\begin{itemize}
+    \item \textbf{Framework :} Laravel (passport) pour une gestion efficace de la logique serveur et du backend (developpement d'api).
+    \item \textbf{Base de données :} MySQL ou PostgreSQL pour la gestion des données avec Eloquent ORM.
+    \item \textbf{Frontend :} React js pour une interface utilisateur dynamique et fluide.
+
+\end{itemize}
+
+
+\subsubsection{Sécurité}
+\begin{itemize}
+    \item Chiffrement des données sensibles.
+    \item Gestion des accès par rôles.
+\end{itemize}
+
+\subsubsection{Hébergement}
+\begin{itemize}
+    \item Déploiement sur les serveurs internes de Sirius Digital.
+\end{itemize}
+\subsection{Exigences non fonctionnelles}
+
+
+
+\subsubsection{Utilisabilité}
+\begin{itemize}
+    \item L'interface utilisateur doit être intuitive et facile à utiliser, avec une courbe d'apprentissage minimale.
+    \item Une documentation utilisateur complète doit être fournie, incluant des guides et des tutoriels.
+\end{itemize}
+
+\subsubsection{Compatibilité}
+\begin{itemize}
+    \item \textbf{Navigateurs :} Le logiciel doit être compatible avec les dernières versions de Chrome, Firefox, Safari, et Edge.
+    \item \textbf{Mobile :} L'application web doit être responsive et accessible depuis les navigateurs mobiles.
+\end{itemize}
+
+\subsubsection{Scalabilité}
+Le logiciel doit pouvoir gérer un nombre croissant d'utilisateurs et de données sans dégradation des performances.
+
+
+\subsubsection{Nom du logicièl}
+Le logiciel portera donc le nom S
+
+
+\section{Définition des acteurs système}
+Le logiciel est destiné à tous les utilisateurs souhaitant créer et gérer leur propre restaurant.
+\begin{itemize}
+    \item Client
+    \item Serveur 
+    \item Caissier
+    \item ChefSection
+    \item DG 
+\end{itemize}
+\subsection{Client}
+L'utilisateur \textbf{Client} est simplement un utilisateur quelconque qui peut utiliser le logiciel pour commander un plat.
+De même après s'être inscrit, a aussi le choix de créer et gérer son propre restaurent.
+\subsection{Serveur}
+Le \textbf{Serveur} est un personnel appartenant à un restaurent donné qui inter-agit avec le système pour passer des commandes en interne pour les client sur place.
+
+\subsection{Caissier }
+Le \textbf{Casier} est un personnel appartenant à un restaurent donné qui enregistrer les factures et gères beaucoup d'autres choses.
+
+\subsection{ChefSection}
+Le \textbf{DG} est un personnel appartenant à un restaurent donné, il est en quelque sorte le sous directeur du restaurent auquel il appartient. De ce fait il à beaucoup de responsabilité.
+
+\subsection{DG}
+Le \textbf{DG} est le propriétaire du restaurent, de ce fait il a le contrôle absolu du système de gestion du restaurent à travers l'application.
+
+\section{D\'efinition des cas d'utilisation}
+
+Un diagramme de cas d'utilisation est une représentation graphique des interactions entre les acteurs d'un système et ses fonctionnalités. Il permet d'identifier et de structurer les besoins fonctionnels du logiciel en décrivant les actions réalisées par chaque acteur. Ce type de diagramme est particulièrement utile pour comprendre les interactions des utilisateurs avec le système et pour définir clairement les responsabilités de chaque acteur.
+
+Dans ce contexte, nous définissons les cas d'utilisation pour chaque fonctionnalités énoncés précédemment.
+\subsection{Gestion des Congés et Absences}
+\subsubsection{Description de la fonctionnalité}
+La gestion des congés et des absences est une fonctionnalité essentielle du logiciel, permettant aux employés de demander des congés en ligne, de consulter leur solde de congés, et de générer des rapports sur les congés et les absences.
+\subsubsection{Description des cas d'utilisation}
+\begin{itemize}
+    \item \textbf{Demande de congé :} L'employé peut demander un congé en ligne, en précisant la date, la durée, et le motif.
+    \item \textbf{Annulation de la demande de congé :} L'employé peut annuler sa demande de congé en ligne tant que son supérieur hiérarchique n'a pas encore effectué d'action.
+    \item \textbf{approbation du supérieur :} Le supérieur hiérarchique peut valider ou refuser la demande de congé de l'employé.
+    \item \textbf{Approbation du GRH :} Le GRH peut valider ou refuser la demande de congé après approbation du supérieur.
+    \item \textbf{Validation du DG :} Le DG peut valider ou refuser la demande de congé après approbation du GRH.
+    \item \textbf{Consultation du solde de congés :} L'employé peut consulter son solde de congés et les congés déjà pris.
+    \item \textbf{Génération de rapports :} Le GRH peut générer des rapports sur les congés, les absences, et les motifs.
+    \item \textbf{Télécharger le document de validation :} L'employé peut télécharger le pdf de validation de la demande de congés ou absences.
+\end{itemize}
+\subsubsection{Diagramme de cas d'utilisation}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/diagrammes/use-cases/conges.png}
+    \caption{Diagramme de cas d'utilisation Gestion des Congés et Absences}
+    \label{fig:use_case_gestion_conges}
+
+\end{figure}
+\subsubsection{Diagramme de processus}
+Le diagramme de processus modélise les étapes d'exécution de certaines fonctionnalités clés du système. Le diagramme de processus pour la gestion des congés et des absences est le suivant :
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/diagrammes/flowcharts/conges.png}
+    \caption{Diagramme de processus Gestion des Congés et Absences}
+    \label{fig:flow_gestion_conges}
+\end{figure}
+
+\subsection{Gestion des dossiers}
+\subsubsection{Description de la fonctionnalité}
+La gestion des dossiers permet aux employés de consulter leur dossier personnel en ligne, de télécharger des bulletins de paie, et de demander des documents administratifs.
+\subsubsection{Description des cas d'utilisation}
+\begin{itemize}
+    \item \textbf{Consultation du dossier personnel :} L'employé peut consulter son dossier personnel en ligne, contenant ses congés, absences, formations, et évaluations.
+    \item \textbf{Téléchargement des bulletins de paie :} L'employé peut télécharger ses bulletins de paie depuis l'application.
+    \item \textbf{Demande de documents administratifs :} L'employé peut demander des documents administratifs en ligne, tels que des attestations de travail, des certificats de travail.
+\end{itemize}
+\subsubsection{Diagramme de cas d'utilisation}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/diagrammes/use-cases/dossiers.png}
+    \caption{Diagramme de cas d'utilisation Gestion des dossiers}
+    \label{fig:use_case_gestion_dossiers}
+\end{figure}
+\subsubsection{Diagramme de processus}
+Le diagramme de processus pour la gestion des dossiers est le suivant :
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/diagrammes/flowcharts/dossiers.png}
+    \caption{Diagramme de processus Gestion des dossiers}
+    \label{fig:flow_gestion_dossiers}
+\end{figure}
+\subsection{Publication des notes et informations}
+\subsubsection{Description de la fonctionnalité}
+La publication des notes et des informations permet au GRH de publier des notes, des informations, et des documents des \ac{RH} pour les employés, avec des alertes et des notifications pour les rappeler des échéances.
+\subsubsection{Description des cas d'utilisation}   
+\begin{itemize}
+    \item \textbf{Publication des notes et informations :} Le GRH peut publier des notes, des informations, et des documents des \ac{RH} pour les employés.
+    \item \textbf{Alertes et notifications :} Les employés reçoivent des alertes et des notifications pour les rappeler des échéances, des actions sur les demandes.
+\end{itemize}
+\subsubsection{Diagramme de cas d'utilisation}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/diagrammes/use-cases/note.png}
+    \caption{Diagramme de cas d'utilisation Publication des notes et informations}
+    \label{fig:use_case_publication}
+\end{figure}
+\subsubsection{Diagramme de processus}
+Le diagramme de processus pour la publication des notes et des informations est le suivant :
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/diagrammes/flowcharts/note.png}
+    \caption{Diagramme de processus Publication des notes et informations}
+    \label{fig:flow_publication}
+\end{figure}
+
+\section{Conclusion}
+Ce cahier des charges définit les fonctionnalités et les exigences techniques d'un logiciel de gestion des \ac{RH} performant et sécurisé pour l'\ac{ARCOP}. Le logiciel, nommé \textbf{OptiHR}, répondra aux besoins spécifiques du GRH et des employés, en facilitant la gestion des congés, des formations, et des évaluations, d'éditer les bulletins de paie tout en étant évolutif et intégrable aux systèmes existants. La prochaine étape consistera à concevoir l'architecture du système et à élaborer les diagrammes UML pour modéliser les interactions entre les différents modules.
+\clearpage

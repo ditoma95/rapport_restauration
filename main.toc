@@ -1,0 +1,111 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{Remerciements}{I}{chapter*.1}%
+\contentsline {chapter}{Annexe}{II}{chapter*.4}%
+\contentsline {chapter}{Sigles, Acronymes et Abréviations}{VIII}{chapter*.9}%
+\contentsline {chapter}{Introduction Générale}{1}{chapter*.10}%
+\contentsline {chapter}{\numberline {1}Présentation de l'organisme d'acceuil Sirius Digital}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Historique de Sirius Digital}{4}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Historique}{4}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}Les organes de SIRIUS DIGITAL}{5}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Déroulement du stage}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Prise de fonction}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Tâches effectuées}{7}{section.2.2}%
+\contentsline {subsubsection}{Illustration}{7}{subsubsection*.12}%
+\contentsline {subsection}{\numberline {2.2.1}Assistance technique générale}{8}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Remarques et suggestions}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Bilan et conclusion}{9}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Expression des besoins}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}introduction}{11}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Spécifications techniques}{11}{subsection.3.1.1}%
+\contentsline {subsubsection}{Langages et Technologies}{11}{subsubsection*.16}%
+\contentsline {subsubsection}{Sécurité}{11}{subsubsection*.17}%
+\contentsline {subsubsection}{Hébergement}{11}{subsubsection*.18}%
+\contentsline {subsection}{\numberline {3.1.2}Exigences non fonctionnelles}{11}{subsection.3.1.2}%
+\contentsline {subsubsection}{Utilisabilité}{11}{subsubsection*.19}%
+\contentsline {subsubsection}{Compatibilité}{12}{subsubsection*.20}%
+\contentsline {subsubsection}{Scalabilité}{12}{subsubsection*.21}%
+\contentsline {subsubsection}{Nom du logicièl}{12}{subsubsection*.22}%
+\contentsline {section}{\numberline {3.2}Définition des acteurs système}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Client}{12}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Serveur}{12}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Caissier }{12}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}ChefSection}{13}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}DG}{13}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}D\'efinition des cas d'utilisation}{13}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Gestion des Congés et Absences}{13}{subsection.3.3.1}%
+\contentsline {subsubsection}{Description de la fonctionnalité}{13}{subsubsection*.23}%
+\contentsline {subsubsection}{Description des cas d'utilisation}{13}{subsubsection*.24}%
+\contentsline {subsubsection}{Diagramme de cas d'utilisation}{15}{subsubsection*.25}%
+\contentsline {subsubsection}{Diagramme de processus}{16}{subsubsection*.27}%
+\contentsline {subsection}{\numberline {3.3.2}Gestion des dossiers}{18}{subsection.3.3.2}%
+\contentsline {subsubsection}{Description de la fonctionnalité}{18}{subsubsection*.29}%
+\contentsline {subsubsection}{Description des cas d'utilisation}{18}{subsubsection*.30}%
+\contentsline {subsubsection}{Diagramme de cas d'utilisation}{18}{subsubsection*.31}%
+\contentsline {subsubsection}{Diagramme de processus}{18}{subsubsection*.33}%
+\contentsline {subsection}{\numberline {3.3.3}Publication des notes et informations}{19}{subsection.3.3.3}%
+\contentsline {subsubsection}{Description de la fonctionnalité}{19}{subsubsection*.35}%
+\contentsline {subsubsection}{Description des cas d'utilisation}{19}{subsubsection*.37}%
+\contentsline {subsubsection}{Diagramme de cas d'utilisation}{20}{subsubsection*.38}%
+\contentsline {subsubsection}{Diagramme de processus}{20}{subsubsection*.40}%
+\contentsline {section}{\numberline {3.4}Conclusion}{21}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Conception}{22}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Objectifs}{23}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Modélisation et diagrammes}{23}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Dictionnaire de données}{23}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Diagramme de classes}{25}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Description des entités et relations}{25}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Entités principales}{26}{subsection.4.4.1}%
+\contentsline {subsubsection}{User (Utilisateur)}{26}{subsubsection*.44}%
+\contentsline {subsubsection}{Employee (Employé)}{26}{subsubsection*.45}%
+\contentsline {subsubsection}{Department (Département)}{26}{subsubsection*.46}%
+\contentsline {subsubsection}{Role (Rôle)}{27}{subsubsection*.47}%
+\contentsline {subsubsection}{Permission (Permission)}{27}{subsubsection*.48}%
+\contentsline {subsubsection}{File (Fichier)}{27}{subsubsection*.49}%
+\contentsline {subsubsection}{Duty (Tâche/Mission)}{27}{subsubsection*.50}%
+\contentsline {subsubsection}{Job (Poste)}{27}{subsubsection*.51}%
+\contentsline {subsubsection}{Absence (Absence)}{28}{subsubsection*.52}%
+\contentsline {subsubsection}{Note (Note)}{28}{subsubsection*.53}%
+\contentsline {subsubsection}{Decision (Décision)}{28}{subsubsection*.54}%
+\contentsline {subsubsection}{Image (Image)}{28}{subsubsection*.55}%
+\contentsline {section}{\numberline {4.5}Technologies et outils}{29}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Conclusion}{29}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Réalisation}{30}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{31}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Architecture du projet}{31}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Présentation de l'architecture globale}{31}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Choix des technologies et outils}{31}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Développement et implémentation}{33}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Mise en place de l’environnement de développement}{33}{subsection.5.3.1}%
+\contentsline {subsubsection}{Prérequis}{34}{subsubsection*.57}%
+\contentsline {subsubsection}{Installation des outils}{34}{subsubsection*.58}%
+\contentsline {subsubsection}{Installation et configuration de PostgreSQL}{35}{subsubsection*.59}%
+\contentsline {subsubsection}{Configuration de Git et clonage du projet}{35}{subsubsection*.60}%
+\contentsline {subsubsection}{Lancement du serveur de développement}{36}{subsubsection*.61}%
+\contentsline {subsection}{\numberline {5.3.2}Développement des fonctionnalités principales}{36}{subsection.5.3.2}%
+\contentsline {subsubsection}{Feature 1 : [Nom de la fonctionnalité]}{36}{subsubsection*.62}%
+\contentsline {subsubsection}{Feature 2 : [Nom de la fonctionnalité]}{36}{subsubsection*.63}%
+\contentsline {section}{\numberline {5.4}Problèmes rencontrés et solutions adoptées}{36}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Difficultés techniques}{36}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Optimisation et amélioration du code}{36}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.5}Tests et validation}{36}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Stratégie de test}{36}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Résultats des tests}{36}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6}Conclusion}{36}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Bilan}{37}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introduction}{38}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Retour sur les objectifs initiaux}{38}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Rappel des objectifs du projet}{38}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Évaluation de leur atteinte}{38}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}Analyse des résultats obtenus}{38}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Synthèse des résultats}{38}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Difficultés rencontrées et solutions adoptées}{38}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}Compétences acquises et développées}{38}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Compétences techniques}{38}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Compétences organisationnelles}{38}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Compétences personnelles}{38}{subsection.6.4.3}%
+\contentsline {section}{\numberline {6.5}Limites et axes d’amélioration}{38}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Contraintes techniques et organisationnelles}{38}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Améliorations possibles et perspectives d’évolution}{38}{subsection.6.5.2}%
+\contentsline {section}{\numberline {6.6}Conclusion}{38}{section.6.6}%
+\contentsline {chapter}{\numberline {7}Conclusion Générale}{39}{chapter.7}%
