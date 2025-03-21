@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.3.17)  21 MAR 2025 05:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.3.17)  21 MAR 2025 06:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -722,9 +722,15 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 
 LaTeX Warning: Label `fig:interface-login_pass' multiply defined.
 
-) (./partials/07-presentation-projet.aux) (./partials/08-conception-projet.aux)
-(./partials/09-realisation-projet.aux) (./partials/10-bilan.aux)
-(./partials/12-conclusion.aux))
+) (./partials/07-presentation-projet.aux
+
+LaTeX Warning: Label `fig:use_case_gestion_conges' multiply defined.
+
+
+LaTeX Warning: Label `fig:use_case_gestion_conges' multiply defined.
+
+) (./partials/08-conception-projet.aux) (./partials/09-realisation-projet.aux)
+(./partials/10-bilan.aux) (./partials/12-conclusion.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
@@ -837,7 +843,7 @@ Package caption Info: End \AtBeginDocument code.
 \openout2 = `partials/01-garde.aux'.
 
  (./partials/01-garde.tex
-<images/logo/logo-arcop.png, id=288, 150.5625pt x 144.54pt>
+<images/logo/logo-arcop.png, id=292, 150.5625pt x 144.54pt>
 File: images/logo/logo-arcop.png Graphic file (type png)
 <use images/logo/logo-arcop.png>
 Package pdftex.def Info: images/logo/logo-arcop.png  used on input line 7.
@@ -876,7 +882,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 10.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 10.
-<images/logo/logo-ifnti.png, id=290, 200.75pt x 200.75pt>
+<images/logo/logo-ifnti.png, id=294, 200.75pt x 200.75pt>
 File: images/logo/logo-ifnti.png Graphic file (type png)
 <use images/logo/logo-ifnti.png>
 Package pdftex.def Info: images/logo/logo-ifnti.png  used on input line 22.
@@ -1117,7 +1123,7 @@ Package acronym Warning: Acronym `essor' is not defined on input line 9.
 
 Package acronym Warning: Acronym `essor' is not defined on input line 9.
 
-<images/logo/foc.png, id=464, 888.31876pt x 641.39626pt>
+<images/logo/foc.png, id=471, 888.31876pt x 641.39626pt>
 File: images/logo/foc.png Graphic file (type png)
 <use images/logo/foc.png>
 Package pdftex.def Info: images/logo/foc.png  used on input line 25.
@@ -1153,7 +1159,7 @@ Chapitre 2.
 
 
 ]
-<images/passe/home.png, id=481, 1926.19624pt x 1141.26375pt>
+<images/passe/home.png, id=488, 1926.19624pt x 1141.26375pt>
 File: images/passe/home.png Graphic file (type png)
 <use images/passe/home.png>
 Package pdftex.def Info: images/passe/home.png  used on input line 29.
@@ -1165,7 +1171,7 @@ Package acronym Warning: Acronym `PASSE' is not defined on input line 30.
 
 Package acronym Warning: Acronym `PASSE' is not defined on input line 30.
 
-<images/passe/login.png, id=482, 1924.18875pt x 1129.21875pt>
+<images/passe/login.png, id=489, 1924.18875pt x 1129.21875pt>
 File: images/passe/login.png Graphic file (type png)
 <use images/passe/login.png>
 Package pdftex.def Info: images/passe/login.png  used on input line 36.
@@ -1187,7 +1193,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [7
 
  <./images/passe/home.png>]
-<images/passe/dash.png, id=489, 1926.19624pt x 1141.26375pt>
+<images/passe/dash.png, id=496, 1926.19624pt x 1141.26375pt>
 File: images/passe/dash.png Graphic file (type png)
 <use images/passe/dash.png>
 Package pdftex.def Info: images/passe/dash.png  used on input line 43.
@@ -1248,6 +1254,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12]
+<images/diagrammes/use-cases/client.png, id=527, 1210.5225pt x 844.15375pt>
+File: images/diagrammes/use-cases/client.png Graphic file (type png)
+<use images/diagrammes/use-cases/client.png>
+Package pdftex.def Info: images/diagrammes/use-cases/client.png  used on input 
+line 101.
+(pdftex.def)             Requested size: 386.95897pt x 269.83846pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1257,12 +1270,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13]
-<images/diagrammes/use-cases/conges.png, id=527, 791.95876pt x 1088.065pt>
-File: images/diagrammes/use-cases/conges.png Graphic file (type png)
-<use images/diagrammes/use-cases/conges.png>
-Package pdftex.def Info: images/diagrammes/use-cases/conges.png  used on input 
-line 102.
-(pdftex.def)             Requested size: 386.95897pt x 531.64569pt.
+<images/diagrammes/use-cases/caissier.png, id=534, 1046.91125pt x 482.80376pt>
+File: images/diagrammes/use-cases/caissier.png Graphic file (type png)
+<use images/diagrammes/use-cases/caissier.png>
+Package pdftex.def Info: images/diagrammes/use-cases/caissier.png  used on inpu
+t line 110.
+(pdftex.def)             Requested size: 386.95897pt x 178.45041pt.
+<images/diagrammes/use-cases/DG.png, id=535, 1225.57875pt x 943.525pt>
+File: images/diagrammes/use-cases/DG.png Graphic file (type png)
+<use images/diagrammes/use-cases/DG.png>
+Package pdftex.def Info: images/diagrammes/use-cases/DG.png  used on input line
+ 119.
+(pdftex.def)             Requested size: 386.95897pt x 297.903pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1272,117 +1291,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14]
-<images/diagrammes/flowcharts/conges.png, id=532, 791.95876pt x 1088.065pt>
-File: images/diagrammes/flowcharts/conges.png Graphic file (type png)
-<use images/diagrammes/flowcharts/conges.png>
-Package pdftex.def Info: images/diagrammes/flowcharts/conges.png  used on input
- line 111.
-(pdftex.def)             Requested size: 386.95897pt x 531.64569pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[15 <./images/diagrammes/use-cases/conges.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[16]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[17 <./images/diagrammes/flowcharts/conges.png>]
-<images/diagrammes/use-cases/dossiers.png, id=551, 734.745pt x 522.95375pt>
-File: images/diagrammes/use-cases/dossiers.png Graphic file (type png)
-<use images/diagrammes/use-cases/dossiers.png>
-Package pdftex.def Info: images/diagrammes/use-cases/dossiers.png  used on inpu
-t line 128.
-(pdftex.def)             Requested size: 386.95897pt x 275.4246pt.
-<images/diagrammes/flowcharts/dossiers.png, id=552, 734.745pt x 522.95375pt>
-File: images/diagrammes/flowcharts/dossiers.png Graphic file (type png)
-<use images/diagrammes/flowcharts/dossiers.png>
-Package pdftex.def Info: images/diagrammes/flowcharts/dossiers.png  used on inp
-ut line 136.
-(pdftex.def)             Requested size: 386.95897pt x 275.4246pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[18 <./images/diagrammes/use-cases/dossiers.png>]
+[14 <./images/diagrammes/use-cases/client.png (PNG copy)> <./images/diagrammes/
+use-cases/caissier.png (PNG copy)>]
 Package acronym Info: Label `acro:RH' newly defined as it shall be overridden
-although it is yet undefined on input line 142.
+although it is yet undefined on input line 138.
 
 
-Package acronym Warning: Acronym `RH' is not defined on input line 142.
+Package acronym Warning: Acronym `RH' is not defined on input line 138.
 
 
-Package acronym Warning: Acronym `RH' is not defined on input line 142.
-
-
-Package acronym Warning: Acronym `RH' is not defined on input line 145.
-
-<images/diagrammes/use-cases/note.png, id=563, 723.70375pt x 763.85374pt>
-File: images/diagrammes/use-cases/note.png Graphic file (type png)
-<use images/diagrammes/use-cases/note.png>
-Package pdftex.def Info: images/diagrammes/use-cases/note.png  used on input li
-ne 151.
-(pdftex.def)             Requested size: 386.95897pt x 408.43044pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[19 <./images/diagrammes/flowcharts/dossiers.png>]
-<images/diagrammes/flowcharts/note.png, id=572, 723.70375pt x 763.85374pt>
-File: images/diagrammes/flowcharts/note.png Graphic file (type png)
-<use images/diagrammes/flowcharts/note.png>
-Package pdftex.def Info: images/diagrammes/flowcharts/note.png  used on input l
-ine 159.
-(pdftex.def)             Requested size: 386.95897pt x 408.43044pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[20 <./images/diagrammes/use-cases/note.png>]
-
-Package acronym Warning: Acronym `RH' is not defined on input line 165.
+Package acronym Warning: Acronym `RH' is not defined on input line 138.
 
 Package acronym Info: Label `acro:ARCOP' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 165.
+although it is yet undefined on input line 138.
 
-Package acronym Warning: Acronym `ARCOP' is not defined on input line 165.
+Package acronym Warning: Acronym `ARCOP' is not defined on input line 138.
 
 
-Package acronym Warning: Acronym `ARCOP' is not defined on input line 165.
+Package acronym Warning: Acronym `ARCOP' is not defined on input line 138.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1392,13 +1319,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21 <./images/diagrammes/flowcharts/note.png>])
+[15 <./images/diagrammes/use-cases/DG.png (PNG copy)>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16])
 \openout2 = `partials/08-conception-projet.aux'.
 
-
-(./partials/08-conception-projet.tex
+ (./partials/08-conception-projet.tex
 Chapitre 4.
-[22
+[17
 
 
 
@@ -1427,7 +1362,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23
+[18
 
 ]
 
@@ -1438,13 +1373,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24]
+[19]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 106.
 See the caption package documentation for explanation.
 
-<images/diagrammes/class/diagramme.jpeg, id=603, 1003.75pt x 718.685pt>
+<images/diagrammes/class/diagramme.jpeg, id=567, 1003.75pt x 718.685pt>
 File: images/diagrammes/class/diagramme.jpeg Graphic file (type jpg)
 <use images/diagrammes/class/diagramme.jpeg>
 Package pdftex.def Info: images/diagrammes/class/diagramme.jpeg  used on input 
@@ -1458,7 +1393,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25 <./images/diagrammes/class/diagramme.jpeg>]
+[20 <./images/diagrammes/class/diagramme.jpeg>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1467,7 +1402,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26]
+[21]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1476,7 +1411,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27]
+[22]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1485,13 +1420,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28]
-<images/logo/uml.png, id=633, 501.875pt x 365.365pt>
+[23]
+<images/logo/uml.png, id=599, 501.875pt x 365.365pt>
 File: images/logo/uml.png Graphic file (type png)
 <use images/logo/uml.png>
 Package pdftex.def Info: images/logo/uml.png  used on input line 274.
 (pdftex.def)             Requested size: 85.35826pt x 62.1391pt.
-<images/logo/modelio.png, id=634, 501.875pt x 501.875pt>
+<images/logo/modelio.png, id=600, 501.875pt x 501.875pt>
 File: images/logo/modelio.png Graphic file (type png)
 <use images/logo/modelio.png>
 Package pdftex.def Info: images/logo/modelio.png  used on input line 277.
@@ -1505,50 +1440,50 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29 <./images/logo/uml.png> <./images/logo/modelio.png>])
+[24 <./images/logo/uml.png> <./images/logo/modelio.png>])
 \openout2 = `partials/09-realisation-projet.aux'.
 
 
 (./partials/09-realisation-projet.tex
 Chapitre 5.
-[30
+[25
 
 
 
 
 
 ]
-<images/logo/laravel.png, id=645, 248.93pt x 148.555pt>
+<images/logo/laravel.png, id=612, 248.93pt x 148.555pt>
 File: images/logo/laravel.png Graphic file (type png)
 <use images/logo/laravel.png>
 Package pdftex.def Info: images/logo/laravel.png  used on input line 40.
 (pdftex.def)             Requested size: 85.35826pt x 50.94098pt.
-<images/logo/blade.png, id=646, 252.945pt x 148.555pt>
+<images/logo/blade.png, id=613, 252.945pt x 148.555pt>
 File: images/logo/blade.png Graphic file (type png)
 <use images/logo/blade.png>
 Package pdftex.def Info: images/logo/blade.png  used on input line 50.
 (pdftex.def)             Requested size: 85.35826pt x 50.13174pt.
-<images/logo/postgresql.png, id=647, 155.58125pt x 148.555pt>
+<images/logo/postgresql.png, id=614, 155.58125pt x 148.555pt>
 File: images/logo/postgresql.png Graphic file (type png)
 <use images/logo/postgresql.png>
 Package pdftex.def Info: images/logo/postgresql.png  used on input line 59.
 (pdftex.def)             Requested size: 85.35826pt x 81.50375pt.
-<images/logo/bootstrap.png, id=648, 148.555pt x 148.555pt>
+<images/logo/bootstrap.png, id=615, 148.555pt x 148.555pt>
 File: images/logo/bootstrap.png Graphic file (type png)
 <use images/logo/bootstrap.png>
 Package pdftex.def Info: images/logo/bootstrap.png  used on input line 68.
 (pdftex.def)             Requested size: 85.35826pt x 85.36179pt.
-<images/logo/javascript.png, id=649, 187.70125pt x 148.555pt>
+<images/logo/javascript.png, id=616, 187.70125pt x 148.555pt>
 File: images/logo/javascript.png Graphic file (type png)
 <use images/logo/javascript.png>
 Package pdftex.def Info: images/logo/javascript.png  used on input line 77.
 (pdftex.def)             Requested size: 85.35826pt x 67.55635pt.
-<images/logo/git.png, id=650, 913.4125pt x 381.425pt>
+<images/logo/git.png, id=617, 913.4125pt x 381.425pt>
 File: images/logo/git.png Graphic file (type png)
 <use images/logo/git.png>
 Package pdftex.def Info: images/logo/git.png  used on input line 86.
 (pdftex.def)             Requested size: 85.35826pt x 35.64209pt.
-<images/logo/github.png, id=651, 264.99pt x 148.555pt>
+<images/logo/github.png, id=618, 264.99pt x 148.555pt>
 File: images/logo/github.png Graphic file (type png)
 <use images/logo/github.png>
 Package pdftex.def Info: images/logo/github.png  used on input line 87.
@@ -1566,7 +1501,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.35403pt}.
 
-[31
+[26
 
  <./images/logo/laravel.png>]
 
@@ -1577,7 +1512,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.35403pt}.
 
-[32 <./images/logo/blade.png> <./images/logo/postgresql.png> <./images/logo/boo
+[27 <./images/logo/blade.png> <./images/logo/postgresql.png> <./images/logo/boo
 tstrap.png>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1592,7 +1527,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.35403pt}.
 
-[33 <./images/logo/javascript.png> <./images/logo/git.png> <./images/logo/githu
+[28 <./images/logo/javascript.png> <./images/logo/git.png> <./images/logo/githu
 b.png>]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 28.
@@ -1612,7 +1547,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.35403pt}.
 
-[34]
+[29]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -1621,7 +1556,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.35403pt}.
 
-[35]
+[30]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -1630,12 +1565,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.35403pt}.
 
-[36])
+[31])
 \openout2 = `partials/10-bilan.aux'.
 
  (./partials/10-bilan.tex
 Chapitre 6.
-[37
+[32
 
 
 
@@ -1650,14 +1585,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38
+[33
 
 ])
 \openout2 = `partials/12-conclusion.aux'.
 
  (./partials/12-conclusion.tex
 Chapitre 7.
-[39
+[34
 
 
 
@@ -1681,37 +1616,46 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 1E41D4E49467F3C97759558B8EE021A2;12716
-(rerunfilecheck)             After:  615A527DCE7A2B5DBBF10735208DCE88;12860.
+(rerunfilecheck)             Before: 93B9198C3AC60AB19C7E411747A1470D;12844
+(rerunfilecheck)             After:  D7B458148E968A03643FC0A786378F19;12585.
  ) 
 Here is how much of TeX's memory you used:
- 25893 strings out of 480177
- 479116 string characters out of 5893867
- 795247 words of memory out of 5000000
- 43158 multiletter control sequences out of 15000+600000
+ 25862 strings out of 480177
+ 478091 string characters out of 5893867
+ 795165 words of memory out of 5000000
+ 43140 multiletter control sequences out of 15000+600000
  518331 words of font info for 53 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  83i,14n,80p,776b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.42} has been referenced but does n
-ot exist, replaced by a fixed one
+pdfTeX warning (dest): name{table.caption.56} has been referenced but does no
+t exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.40} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.43} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.36} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.41} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.30} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.39} has been referenced but does not
  exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.34} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.32} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.3} has been referenced but does not 
+exist, replaced by a fixed one
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/pu
 blic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (48 pages, 5257173 bytes).
+Output written on main.pdf (43 pages, 5084039 bytes).
 PDF statistics:
- 775 PDF objects out of 1000 (max. 8388607)
- 666 compressed objects within 7 object streams
- 196 named destinations out of 1000 (max. 500000)
- 683 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 741 PDF objects out of 1000 (max. 8388607)
+ 646 compressed objects within 7 object streams
+ 183 named destinations out of 1000 (max. 500000)
+ 676 words of extra memory for PDF output out of 10000 (max. 10000000)
 
