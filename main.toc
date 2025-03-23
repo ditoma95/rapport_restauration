@@ -35,12 +35,18 @@
 \contentsline {subsection}{\numberline {3.3.1}Listes des cas d'utilisation}{13}{subsection.3.3.1}%
 \contentsline {subsubsection}{Description de chaque fonctionalité}{13}{subsubsection*.23}%
 \contentsline {subsubsection}{Gestion de restaurent}{13}{subsubsection*.24}%
-\contentsline {subsubsection}{Diagramme de cas d'utilisation par acteur du système}{14}{subsubsection*.25}%
-\contentsline {subsection}{\numberline {3.3.2}Gestion des dossiers}{15}{subsection.3.3.2}%
-\contentsline {subsubsection}{Description de la fonctionnalité}{15}{subsubsection*.29}%
-\contentsline {subsubsection}{Description des cas d'utilisation}{15}{subsubsection*.30}%
-\contentsline {section}{\numberline {3.4}Conclusion}{16}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Conception}{17}{chapter.4}%
+\contentsline {subsubsection}{Gestion Séparée}{13}{subsubsection*.25}%
+\contentsline {subsubsection}{Gestion Catégorie}{14}{subsubsection*.26}%
+\contentsline {subsubsection}{Gestion Promotion}{14}{subsubsection*.27}%
+\contentsline {subsubsection}{Gestion Plat}{14}{subsubsection*.28}%
+\contentsline {subsubsection}{Gestion Réservation}{14}{subsubsection*.29}%
+\contentsline {subsubsection}{Gestion des Tables}{14}{subsubsection*.30}%
+\contentsline {subsubsection}{Gestion des Commandes}{14}{subsubsection*.31}%
+\contentsline {subsubsection}{Gestion des Événement}{14}{subsubsection*.32}%
+\contentsline {section}{\numberline {3.4}Illustration des fonctionnalités à travers les diagrammes de cas d'utilisation}{14}{section.3.4}%
+\contentsline {subsubsection}{Diagramme de cas d'utilisation par acteur du système}{14}{subsubsection*.33}%
+\contentsline {section}{\numberline {3.5}En résumé}{16}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Phase de réalisation du projet}{17}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Introduction}{18}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Objectifs}{18}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Modélisation et diagrammes}{18}{section.4.3}%
@@ -48,18 +54,18 @@
 \contentsline {subsection}{\numberline {4.3.2}Diagramme de classes}{20}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Description des entités et relations}{20}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Entités principales}{21}{subsection.4.4.1}%
-\contentsline {subsubsection}{User (Utilisateur)}{21}{subsubsection*.34}%
-\contentsline {subsubsection}{Employee (Employé)}{21}{subsubsection*.35}%
-\contentsline {subsubsection}{Department (Département)}{21}{subsubsection*.36}%
-\contentsline {subsubsection}{Role (Rôle)}{22}{subsubsection*.37}%
-\contentsline {subsubsection}{Permission (Permission)}{22}{subsubsection*.38}%
-\contentsline {subsubsection}{File (Fichier)}{22}{subsubsection*.39}%
-\contentsline {subsubsection}{Duty (Tâche/Mission)}{22}{subsubsection*.40}%
-\contentsline {subsubsection}{Job (Poste)}{22}{subsubsection*.41}%
-\contentsline {subsubsection}{Absence (Absence)}{23}{subsubsection*.42}%
-\contentsline {subsubsection}{Note (Note)}{23}{subsubsection*.43}%
-\contentsline {subsubsection}{Decision (Décision)}{23}{subsubsection*.44}%
-\contentsline {subsubsection}{Image (Image)}{23}{subsubsection*.45}%
+\contentsline {subsubsection}{User (Utilisateur)}{21}{subsubsection*.38}%
+\contentsline {subsubsection}{Employee (Employé)}{21}{subsubsection*.39}%
+\contentsline {subsubsection}{Department (Département)}{21}{subsubsection*.40}%
+\contentsline {subsubsection}{Role (Rôle)}{22}{subsubsection*.41}%
+\contentsline {subsubsection}{Permission (Permission)}{22}{subsubsection*.42}%
+\contentsline {subsubsection}{File (Fichier)}{22}{subsubsection*.43}%
+\contentsline {subsubsection}{Duty (Tâche/Mission)}{22}{subsubsection*.44}%
+\contentsline {subsubsection}{Job (Poste)}{22}{subsubsection*.45}%
+\contentsline {subsubsection}{Absence (Absence)}{23}{subsubsection*.46}%
+\contentsline {subsubsection}{Note (Note)}{23}{subsubsection*.47}%
+\contentsline {subsubsection}{Decision (Décision)}{23}{subsubsection*.48}%
+\contentsline {subsubsection}{Image (Image)}{23}{subsubsection*.49}%
 \contentsline {section}{\numberline {4.5}Technologies et outils}{24}{section.4.5}%
 \contentsline {section}{\numberline {4.6}Conclusion}{24}{section.4.6}%
 \contentsline {chapter}{\numberline {5}Réalisation}{25}{chapter.5}%
@@ -69,14 +75,14 @@
 \contentsline {subsection}{\numberline {5.2.2}Choix des technologies et outils}{26}{subsection.5.2.2}%
 \contentsline {section}{\numberline {5.3}Développement et implémentation}{28}{section.5.3}%
 \contentsline {subsection}{\numberline {5.3.1}Mise en place de l’environnement de développement}{28}{subsection.5.3.1}%
-\contentsline {subsubsection}{Prérequis}{29}{subsubsection*.47}%
-\contentsline {subsubsection}{Installation des outils}{29}{subsubsection*.48}%
-\contentsline {subsubsection}{Installation et configuration de PostgreSQL}{30}{subsubsection*.49}%
-\contentsline {subsubsection}{Configuration de Git et clonage du projet}{30}{subsubsection*.50}%
-\contentsline {subsubsection}{Lancement du serveur de développement}{31}{subsubsection*.51}%
+\contentsline {subsubsection}{Prérequis}{29}{subsubsection*.51}%
+\contentsline {subsubsection}{Installation des outils}{29}{subsubsection*.52}%
+\contentsline {subsubsection}{Installation et configuration de PostgreSQL}{30}{subsubsection*.53}%
+\contentsline {subsubsection}{Configuration de Git et clonage du projet}{30}{subsubsection*.54}%
+\contentsline {subsubsection}{Lancement du serveur de développement}{31}{subsubsection*.55}%
 \contentsline {subsection}{\numberline {5.3.2}Développement des fonctionnalités principales}{31}{subsection.5.3.2}%
-\contentsline {subsubsection}{Feature 1 : [Nom de la fonctionnalité]}{31}{subsubsection*.52}%
-\contentsline {subsubsection}{Feature 2 : [Nom de la fonctionnalité]}{31}{subsubsection*.53}%
+\contentsline {subsubsection}{Feature 1 : [Nom de la fonctionnalité]}{31}{subsubsection*.56}%
+\contentsline {subsubsection}{Feature 2 : [Nom de la fonctionnalité]}{31}{subsubsection*.57}%
 \contentsline {section}{\numberline {5.4}Problèmes rencontrés et solutions adoptées}{31}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}Difficultés techniques}{31}{subsection.5.4.1}%
 \contentsline {subsection}{\numberline {5.4.2}Optimisation et amélioration du code}{31}{subsection.5.4.2}%
